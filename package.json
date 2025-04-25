@@ -1,0 +1,16 @@
+{
+  "name": "skyway-airlines",
+  "version": "1.0.0",
+  "description": "SkyWay Airlines Flight Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-api": "node server-api.js",
+    "dev": "concurrently \"npm run start\" \"npm run start-api\"",
+    "install-deps": "npm install express cors"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
